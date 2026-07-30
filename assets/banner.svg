@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1f14"/>
+      <stop offset="50%" stop-color="#0d2b1a"/>
+      <stop offset="100%" stop-color="#08150d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1e7a3f" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a1f14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- decorative field lines -->
+  <g stroke="#ffffff" stroke-opacity="0.06" fill="none">
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <circle cx="600" cy="180" r="90"/>
+    <circle cx="600" cy="180" r="4"/>
+    <rect x="0" y="60" width="140" height="240"/>
+    <rect x="1060" y="60" width="140" height="240"/>
+  </g>
+
+  <!-- soccer ball motif top-left -->
+  <g opacity="0.12" stroke="#ffffff" fill="none">
+    <circle cx="130" cy="70" r="34"/>
+    <path d="M130 44 L150 60 L142 84 L118 84 L110 60 Z"/>
+    <line x1="130" y1="44" x2="130" y2="36"/>
+    <line x1="150" y1="60" x2="164" y2="52"/>
+    <line x1="142" y1="84" x2="150" y2="98"/>
+    <line x1="118" y1="84" x2="110" y2="98"/>
+    <line x1="110" y1="60" x2="96" y2="52"/>
+  </g>
+
+  <!-- soccer ball motif bottom-right -->
+  <g opacity="0.1" stroke="#ffffff" fill="none">
+    <circle cx="1080" cy="300" r="46"/>
+    <path d="M1080 264 L1106 284 L1096 316 L1064 316 L1054 284 Z"/>
+    <line x1="1080" y1="264" x2="1080" y2="252"/>
+    <line x1="1106" y1="284" x2="1126" y2="272"/>
+    <line x1="1096" y1="316" x2="1106" y2="336"/>
+    <line x1="1064" y1="316" x2="1054" y2="336"/>
+    <line x1="1054" y1="284" x2="1034" y2="272"/>
+  </g>
+
+  <!-- motion streak suggesting a jump/steal -->
+  <g stroke="#7ee3a3" stroke-opacity="0.18" stroke-width="3" fill="none">
+    <path d="M60 250 Q 300 180 560 220"/>
+    <path d="M640 220 Q 900 260 1140 190"/>
+  </g>
+
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" font-weight="bold" fill="#ffffff">
+    <tspan x="600" dy="0">Jump To Steal</tspan>
+    <tspan x="600" dy="64">Soccer Legends</tspan>
+  </text>
+
+  <text x="600" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Script console for Soccer Legends players — automate Jump To Steal timing and</tspan>
+    <tspan x="600" dy="28">review match stats.</tspan>
+  </text>
+</svg>
